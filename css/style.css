@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap');
 
+/*GALERIA APRESENTAÇÃO CSS*/
+
+
+* {box-sizing:border-box}
+
+
+
+/*--- GALERIA DE APRESENTAÇÃO CSS---*/
 
 /* BARRA DE NAVEGAÇÃO*/
 .topnav #myLinks {
@@ -629,6 +637,17 @@ body {
   
   
   }
+  
+  
+  
+  
+  
+  
+
+  
+
+
+
   
   
   
