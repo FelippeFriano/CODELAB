@@ -35,6 +35,124 @@
 
     <!-------BARRA DE NAVEGAÇÃO HTML---------------------------------------------------->
 
+        <!-------------------------------------GALERIA HTML--------------------------------->
+   
+    <!--GALERIA DE APRESENTAÇÃO HTML-->
+
+    <!-- contêiner de apresentação de slides-->
+    <div class="slideshow-container" width="90%">
+
+      <!-- Imagens de largura total com número e texto da legenda -->
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="img/pg produto.png" style="width:100%">
+        <div class="text"></div>
+      </div>
+  
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="img/pg produtos itens.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+  
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="img/pg compra.png" style="width:100%">
+        <div class="text"></div>
+      </div>
+  
+      <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="img/pg cadastro.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+  
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="img/pg pagamento.png" style="width:100%">
+          <div class="text"></div>
+        </div>
+  
+  
+      <!-- Botões seguinte e anterior -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+  
+    <!-- Os pontos/círculos -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+  
+    <!--GALERIA DE APRESENTAÇÃO HTML-->
+  
+  <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  
+  
+  
+    <!--GALERIA DE APRESENTAÇÃO JAVA-->
+    <script>
+  {
+    let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  }
+  // Controles próximos/anteriores
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  // Controles de imagem em miniatura
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </Script>
+  
+  <script>
+      let slideIndex = 0;
+      showSlides();
+  
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 5000); // Change image every 5 seconds
+      }
+      </script>
+  
+  <!--GALERIA DE APRESENTAÇÃO JAVA-->
+
+
   <!-------RODAPE HTML---------------------------------------------------->
   </body>
 
