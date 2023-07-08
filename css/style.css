@@ -146,7 +146,8 @@ text-align: center;
     background-image: url("/img/login.png");
     width: 100%;
   }
-  /* --------------------------FORMS LOGIN -----------------------------------------------*/
+  /* --------------------------FORMS LOGIN CSS -----------------------------------------------*/
+
   .form-container {
     width: 500px;
     background: linear-gradient(#212121, #212121) padding-box,
@@ -252,7 +253,7 @@ text-align: center;
     background-color: #fff;
     border-color: #fff;
   }
-  
+   /* --------------------------FORMS LOGIN CSS-----------------------------------------------*/
   
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
