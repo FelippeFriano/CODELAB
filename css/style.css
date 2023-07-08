@@ -125,7 +125,7 @@ text-align: center;
   }
   
   /* MUDAR A COR DA DIV QUANDO PASSA O MOUSE */
-  .topnav a:hover {
+  .topnav a {
     background-color: #ead1d1;
     color: black;
   }
