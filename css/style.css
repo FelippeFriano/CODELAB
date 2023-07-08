@@ -109,7 +109,7 @@ text-align: center;
   .topnav a.active {
     text-align: center;
     
-    color: WHITE;
+    color: rgb(14, 13, 13);
   }
 body {
     background: linear-gradient(-45deg, #905E38, #622184, #905E38, #0B0707);
