@@ -109,7 +109,7 @@ text-align: center;
   .topnav a.active {
     text-align: center;
     
-    color: rgba(4, 1, 12, 0.1);
+    color: black;
   }
 
   /* ---------------------BARRA DE NAVEGAÇÃO CSS----------------------------*/
