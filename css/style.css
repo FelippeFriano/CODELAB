@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap');
 
+/*---------------- PLANO DE FUNDO CSS------------------------- */
+
+body {
+  background: linear-gradient(-45deg, #905E38, #622184, #905E38, #0B0707);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/*---------------- PLANO DE FUNDO CSS----------------------- */
+
 /* ---------------------BARRA DE NAVEGAÇÃO CSS----------------------------*/
 .topnav #myLinks {
   
@@ -116,31 +141,12 @@ text-align: center;
   /* ---------------------BARRA DE NAVEGAÇÃO CSS----------------------------*/
 
 
-/*---------------- PLANO DE FUNDO CSS------------------------- */
-
-  body {
-    background: linear-gradient(-45deg, #905E38, #622184, #905E38, #0B0707);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100vh;
-
-}
-
-@keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+    /* ---------------------BANNER CSS----------------------------*/
 
 
-  /*---------------- PLANO DE FUNDO CSS----------------------- */
 
+
+    /* ---------------------BARNNER CSS----------------------------*/
 
 
 
