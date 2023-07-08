@@ -133,9 +133,7 @@ text-align: center;
   
   .topnav a.active {
     text-align: center;
-    background-color: #ead1d1;
-    
-
+    color: black;
   }
 
   /* ---------------------BARRA DE NAVEGAÇÃO CSS----------------------------*/
@@ -146,7 +144,7 @@ text-align: center;
 
 
 
-    /* ---------------------BARNNER CSS----------------------------*/
+    /* ---------------------BANNER CSS----------------------------*/
 
 
 
