@@ -113,7 +113,7 @@ text-align: center;
     margin-right: 20%;
   }
   /* ESTILO DO TEXTO DENTRO DA TAG LINK (A) */
-  .topnav .active {
+  .topnav a {
     display: inline-block;
     font-family: 'Oswald', sans-serif;
     color: white;
@@ -131,10 +131,10 @@ text-align: center;
   
   /* COR DA DIV ATIVADA (INÍCIO) */
   
-  .topnav a {
+  .topnav a.active {
     text-align: center;
     background-color: #ead1d1;
-    color: white;
+    
 
   }
 
