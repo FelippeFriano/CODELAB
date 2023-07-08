@@ -141,12 +141,12 @@ text-align: center;
   /*---------------- PLANO DE FUNDO CSS----------------------- */
 
   /*------------------- PAGINA LOGIN CSS---------------- */
-  
+
   main{
     background-image: url("/img/login.png");
     width: 100%;
   }
-  /* FORMS LOGIN */
+  /* --------------------------FORMS LOGIN -----------------------------------------------*/
   .form-container {
     width: 500px;
     background: linear-gradient(#212121, #212121) padding-box,
