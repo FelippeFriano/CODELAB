@@ -133,9 +133,9 @@ text-align: center;
   
   .topnav a.active {
     text-align: center;
-    background-color: white;
+    background-color: #ead1d1;
 
-    color: black;
+    color: white;
   }
 
   /* ---------------------BARRA DE NAVEGAÇÃO CSS----------------------------*/
