@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CONVERTER PARA DOLAR</h1>
+    <button onclick="reais()">Converter</button>
+    <section id="converter">
+        <p>O resultado vem aqui...</p>
+    </section>
+
+    <script>
+    
+        function reais() {
+            let reais = Number (window.prompt('Coloque seu valor em reais'))
+            let dolar =  (reais/4.90)
+            
+
+            let res = document.getElementById('converter')
+            res.innerHTML = `<p>Seu valor em reais é <mark>${reais} BRL</mark>.</p>`
+            res.innerHTML += `<p>Seu valor convertido para dolar é <mark>${dolar} USD</mark>.</p>`
+        }
+    </script>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CONVERSOR DE TEMPERATURA</h1>
+    <button onclick="graus()">Converter</button>
+    <section id="converter">
+        <p>O resultado vem aqui...</p>
+    </section>
+
+    <script>
+    
+        function graus() {
+            let graus =  Number (window.prompt('Coloque o valor em °C (Celsius)'))
+            let Fahrenheit = (graus * 9/5) + 32
+            
+            
+
+            let res = document.getElementById('converter')
+            res.innerHTML += `<p>Seu valor convertido para °C (Celcius) é <mark>${graus}</mark>.</p>`
+            res.innerHTML = `<p>Seu valor em Fahrenheit é <mark>${Fahrenheit}</mark>.</p>`
+            
+        }
+    </script>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+</body>
+</html>
