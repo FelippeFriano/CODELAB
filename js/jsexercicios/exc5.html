@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calcular Desconto</h1>
+    <button onclick="media()">calcular media</button>
+    <section id="situacao">
+        <p>O resultado vem aqui...</p>
+    </section>
+
+    <script>
+    
+        function media() {
+            let nome = window.prompt('Qual seu produto')
+            let n1 = Number (window.prompt(`Digite o valor do(a) ${nome}?`))
+            porcentagem = (n1 *(10/100))
+
+            let res = document.getElementById('situacao')
+            res.innerHTML = `<p>Calculando a média final de <mark>${nome}</mark>.</p>`
+            res.innerHTML += `<p>O valor do seu desconto no produto <mark>${nome}</mark>  é  <mark>${porcentagem}</mark>.</p>`
+        }
+    </script>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+</body>
+</html>
