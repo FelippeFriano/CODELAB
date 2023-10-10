@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Desafio de Bhaskara</h1>
+    <button onclick="bhaskara()">Reajuste salario</button>
+    <p>Considerando que a equação no formato Δ=b²-4ac </p>
+    
+    <section id="bhaskara">
+        <p></p>
+        </section>
+        <script>
+            function bhaskara() {
+            let a = Number (window.prompt(`Qual valor de "A"`))
+            let b = Number( window.prompt(`Qual valor de "B"`))
+            let c = Number (window.prompt(`Qual valor de "C"`))
+            let delta = (b**2-(4*a*c))
+            let x1 = (-b)+Math.sqrt(delta) / 2*a
+            let x2 = (-b)-Math.sqrt(delta) / 2*a
+
+
+            let res = document.getElementById('bhaskara')
+            res.innerHTML = `<p>O calculo realizado será Δ=${b}²-4.${a}.${c}.</p>`
+            res.innerHTML += `<p>O valor de delta é <mark>${delta}</mark></p>`
+            res.innerHTML += `<p>A raiz de X1=<mark>${x1}</mark>.</p>`
+            res.innerHTML += `<p>A raiz de X2=${x2}.</p>`
+            }
+        </script>
+
+</html>
